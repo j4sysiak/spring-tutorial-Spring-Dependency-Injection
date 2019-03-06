@@ -8,7 +8,7 @@ public class App {
 	public static void main(String[] args){
 		 
 		
-		ApplicationContext context = new ClassPathXmlApplicationContext("com/caveofprogramming/spring/test/beans/beans.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("pl/jaceksysiak/spring/test/beans/beans.xml");
 		
 		Person person1 = (Person) context.getBean("person");
 		Person person2 = (Person) context.getBean("person");
